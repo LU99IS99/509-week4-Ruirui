@@ -48,7 +48,7 @@ for row in modified_board:
     if invalid_length(input_board):
         raise ValueError("input boards length invalid")
 def invalid_length(input_board: list[str]) -> bool:
-    for s input_board:
+    for s in input_board:
         if len(s) != len(input_board[0]):
             return True
     return False
